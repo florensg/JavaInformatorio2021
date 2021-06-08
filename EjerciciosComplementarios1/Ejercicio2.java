@@ -1,4 +1,4 @@
-package JavaInformatorio2021.EjerciciosComplementarios;
+package JavaInformatorio2021.EjerciciosComplementarios1;
 import java.util.Scanner;
 public class Ejercicio2 {
     public static void main(String[] args){

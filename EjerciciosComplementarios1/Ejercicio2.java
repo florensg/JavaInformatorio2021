@@ -2,6 +2,7 @@ package JavaInformatorio2021.EjerciciosComplementarios1;
 import java.util.Scanner;
 public class Ejercicio2 {
     public static void main(String[] args){
+        System.out.println("Suma, resta, multiplicacion, division y modulo de dos numeros");
         System.out.print("ingrese un numero: ");
         Scanner scan = new Scanner(System.in);
         int numero1 = scan.nextInt();

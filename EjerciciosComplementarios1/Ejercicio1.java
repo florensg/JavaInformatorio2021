@@ -1,13 +1,15 @@
 package JavaInformatorio2021.EjerciciosComplementarios1;
+
 import java.util.Scanner;
 
 public class Ejercicio1 {
-    public static void main(String[] args){
+    public static void main(String[] args) {
+        System.out.println("Saludo de nombre ingresado por teclado");
         System.out.println("ingrese su nombre");
         String nombre = "";
         Scanner nombreEntrada = new Scanner(System.in);
         nombre = nombreEntrada.nextLine();
-        System.out.println("HOLA "+nombre+"!!!"); 
+        System.out.println("HOLA " + nombre + "!!!");
         nombreEntrada.close();
     }
 }

@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class Ejercicio3 {
     public static void main(String[] srgs) {
+        System.out.println("secuencia de numeros consecutivos desde 1 hasta n");
         System.out.print("ingrese un numero: ");
         Scanner scan = new Scanner(System.in);
         int numero = scan.nextInt();
